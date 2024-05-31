@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 jupyter = "*"
 pandas = "*"
+vega-datasets = "*"
+altair = {extras = ["all"], version = "*"}
+vega = "*"
 
 [dev-packages]
 
